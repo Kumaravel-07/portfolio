@@ -41,7 +41,7 @@ p {
 }
 
 .bg-two {
-    background-color: rgb(131, 131, 131, 0.4);
+    background-color: rgb(19, 62, 135,0.3);
 }
 
 .bg-three {
@@ -407,10 +407,6 @@ a{
     color: #232323;
 }
 
-.main-body .portfolio .head-portfolio h1 {
-    color: #133E87;
-    font-size: 36px;
-}
 
 .main-body .portfolio .portfolio-content {
     display: flex;
@@ -642,6 +638,7 @@ a{
     }
     .main-body .banner .main-banner{
         padding: 0px 24px;
+        background-color: rgb(19, 62, 135,0.1);
     }
     
 .main-body .banner .main-banner{
@@ -797,12 +794,9 @@ a{
 @media(max-width:470px){
     .main-body .portfolio .designs{
         position: relative;
-        background-color: rgb(131, 131, 131, 0.4);
+        background-color: rgb(19, 62, 135,0.3);;
     }
-    .main-body .portfolio .designs .design-image{
-        /* position: absolute; */
-        /* display: none; */
-    }
+    
     /* .designs-rev{
         display: flex;
         flex-direction: column;

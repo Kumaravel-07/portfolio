@@ -10,6 +10,9 @@
 .bg-sec {
     background-color: #F96E2A;
 }
+.bg-sec-text {
+    color: #F96E2A;
+}
 
 .link {
     text-decoration: none;
