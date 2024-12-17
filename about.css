@@ -348,6 +348,7 @@ ul {
 @media (max-width:450px) {
     .main-body .about-banner {
         position: relative;
+        height: 60vh;
     }
 
     .main-body .about-banner .about-left {
@@ -366,10 +367,15 @@ ul {
     .main-body .about-banner .about-right h1 {
         margin-left: 65px;
     }
+    .main-body .hobby .hobbyCardHolder {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
 
     .main-body .hobby .hobbyCardHolder .hobbyCards {
+        width: 40%;
         border: #F96E2A 1.5px solid;
-        height: 70px;
+        height: 200px;
     }
 
     .main-body .hobby .hobbyCardHolder .hobbyCards .hobbyImageHolder {
@@ -377,19 +383,9 @@ ul {
         width: 100%;
         height: 100%;
     }
-
-    .hobbyCards {
-        position: relative;
-    }
-
-    .hobbyCards .hikingName {
-        position: absolute;
-        bottom: 0px;
-    }
-
     .hobbyCards .hikingName p {
-        font-weight: 400;
-        font-size: 12px;
+        font-weight: 600;
+        font-size: 16px;
         color: #414040;
     }
 
